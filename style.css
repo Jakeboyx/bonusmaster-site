@@ -1,0 +1,57 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+header {
+  background-color: #004d00;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #ccffcc;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #00ff00;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+.game-details {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.game-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.play-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.play-btn:hover {
+  background-color: #218838;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
